@@ -1,0 +1,59 @@
+.logo{
+    max-width: 20px;
+    transform: rotate(15deg);
+}
+
+#retour{
+    margin: 20px;
+}
+
+nav{
+    border: 1px, solid, black;    
+}
+ul{
+    padding: 0%;
+}
+li{
+    display: inline-block;
+    margin: 0% 8%;
+}
+
+#carrousel{
+    border: 1px, solid, black;
+    display: flex;
+    flex-wrap: wrap;
+}
+#carrousel >img{
+    max-width: 100px;
+    max-height: 100px;
+}
+#carrousel :nth-child(1){
+    transform: rotate(15deg);
+}
+#carrousel :nth-child(2){
+    transform: rotate(-90deg);
+}
+#carrousel :nth-child(3){
+    transform: rotate(25deg);
+}
+#carrousel :nth-child(4){
+    transform: rotate(-38deg);
+}
+#carrousel :nth-child(5){
+    transform: rotate(64deg);
+}
+#carrousel :nth-child(6){
+    transform: rotate(-15deg);
+}
+
+section{
+    border: 1px, solid, black;
+    height: 250px;
+}
+article{
+    display: inline-block;
+    border: 1px, solid, black;
+    margin: 6% 3%;
+    height: 160px;
+    width: 26%;
+}

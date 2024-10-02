@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact</h1>
+    <h2>Notre équipe</h2>
+    <img src="images/logo2.png" alt="logo"><br>
+    <button id="retour"><a href="index.html">retour</a></button>
+    <table>
+        <tr>
+            <td>ADRESSE:</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>TEL:</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>MAIL:</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <form name="contact" method="post" id="profile">
+        <fieldset>
+            <legend>Connexion</legend>
+            <ul>
+                <li><label for="identifiant">Identifiant</label>
+                    <input type="text" id="identifiant"></li>
+                <li><label for="motDePasse">Mot de passe</label>
+                    <input type="text" id="motDePasse"></li>
+                <li><label for="confirmation">Confirmation</label>
+                    <input type="text" id="confirmation"></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Identité</legend>
+            <ul>
+                <li><label for="civilite">Civilité</label>
+                    <input type="text" id="civilite"></li>
+                <li><label for="nom">Nom</label>
+                    <input type="text" id="nom"></li>
+                <li><label for="prenom">Prénom</label>
+                    <input type="text" id="prenom"></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Détails personnels</legend>
+            <ul>
+                <li><label for="mail">Adresse courriel</label>
+                    <input type="text" id="mail"></li>
+                <li><label for="mailID">Identifiants de messagerie</label>
+                    <input type="text" id="mailID"></li>
+                <li><label for="sitePerso">Site personnel</label>
+                    <input type="url" id="sitePerso"></li>
+                <li><label for="descriptif">Petit descriptif en texte libre</label><br>
+                    <textarea name="descriptif" id="descriptif" rows="5" cols="50"></textarea></li>
+                <li><label for="photo">Photo</label>
+                    <input type="file" name="photo" id="photo" accept=".png, .jpeg, .gif"></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Centres d'intérêt</legend>
+            <ul>
+                <li><input type="checkbox" name="interet1" id="interet1">
+                    <label for="interet1">Interet1</label></li>
+                <li><input type="checkbox" name="interet2" id="interet2">
+                    <label for="interet2">Interet2</label></li>
+                <li><input type="checkbox" name="interet3" id="interet3">
+                    <label for="interet3">Interet3</label></li>
+                <li><input type="checkbox" name="interet4" id="interet4">
+                    <label for="interet4">Interet4</label></li>
+                <li><input type="checkbox" name="interet5" id="interet5">
+                    <label for="interet5">Interet5</label></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Condition de fonctionnement</legend>
+            <ul>
+                <li><input type="checkbox" name="cgu" id="cgu" required>
+                    <label for="cgu">Conditions générales d'utilisation</label></li>
+                <li><input type="checkbox" name="info" id="info" required>
+                    <label for="info">D'ivulgation d'informations à des partenaires</label></li>
+                <li><input type="checkbox" name="news" id="news">
+                    <label for="news">Abonnement à la news letter</label></li>
+            </ul>
+        </fieldset>
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>
