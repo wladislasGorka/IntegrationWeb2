@@ -34,33 +34,33 @@ nav{
 }
 
 #container > div{
-    width: 268px;
-    height: 268px;
+    width: 142px;
+    height: 142px;
 }
 #container > div > img{
     position: relative;
     top: 15%;
     left: 15%;
-    width: 170px;
-    height: 206px;
+    width: 100px;
+    height: 100px;
 }
 #container :nth-child(1) img{
-    transform: rotate(3deg);
+    transform: rotate(15deg);
 }
 #container :nth-child(2) img{
-    transform: rotate(-1deg);
+    transform: rotate(-90deg);
 }
 #container :nth-child(3) img{
-    transform: rotate(5deg);
+    transform: rotate(25deg);
 }
 #container :nth-child(4) img{
-    transform: rotate(-3deg);
+    transform: rotate(-38deg);
 }
 #container :nth-child(5) img{
     transform: rotate(0deg);
 }
 #container :nth-child(6) img{
-    transform: rotate(-2deg);
+    transform: rotate(-45deg);
 }
 
 section{
@@ -77,13 +77,11 @@ article{
     position: relative;
     top: 21px;
     left: 21px;
-    width: 80%;
-    margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit,  minmax(100px, max-content)) ;
+    grid-template-columns: repeat(auto-fit,  minmax(10px, max-content)) ;
 }
 .imgResize{
-    margin-left: -30px;
+    margin-left: -70px;
     width: 100px;
     height: 100px;
 }
@@ -92,17 +90,17 @@ article{
     margin-left: 0px;
 }
 #containerSimple :nth-child(2){
-    transform: rotate(2deg);
+    transform: rotate(3deg);
 }
 #containerSimple :nth-child(3){
-    transform: rotate(-3deg);
+    transform: rotate(3deg);
 }
 #containerSimple :nth-child(4){
-    transform: rotate(0deg);
+    transform: rotate(3deg);
 }
 #containerSimple :nth-child(5){
     transform: rotate(3deg);
 }
 #containerSimple :nth-child(6){
-    transform: rotate(1deg);
+    transform: rotate(3deg);
 }
